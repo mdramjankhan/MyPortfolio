@@ -25,7 +25,7 @@ export default function Navbar() {
             
             '>
                     <li
-                        className={`bg-gray-200  w-12 h-12 flex items-center rounded-full
+                        className={`bg-gray-200 w-12 h-12 flex items-center rounded-full
                             ${pathname=="/"? ("bg-yellow-500 text-white"):("bg-gray-200")}
                             `}
                     ><Link href="/" className='w-full' >
@@ -54,9 +54,9 @@ export default function Navbar() {
                         </Link></li>
                     <li
                         className={`bg-gray-200 w-12 h-12 flex items-center rounded-full
-                            ${pathname=="/blog"? ("bg-yellow-500 text-white"):("bg-gray-200")}
+                            ${pathname=="/services"? ("bg-yellow-500 text-white"):("bg-gray-200")}
                             `}
-                    ><Link href="/blog" className='w-full'>
+                    ><Link href="/services" className='w-full'>
                             <IoChatbubblesSharp className='size-5 w-full' />
                         </Link></li>
                 </ul>
@@ -97,9 +97,9 @@ export default function Navbar() {
                         </Link></li>
                     <li
                         className={`bg-gray-200 w-12 h-12 flex items-center rounded-full
-                            ${pathname=="/blog"? ("bg-yellow-500 text-white"):("bg-gray-200")}
+                            ${pathname=="/services"? ("bg-yellow-500 text-white"):("bg-gray-200")}
                             `}
-                    ><Link href="/blog" className='w-full'>
+                    ><Link href="/services" className='w-full'>
                             <IoChatbubblesSharp className='size-5 w-full' />
                         </Link></li>
                 </ul>

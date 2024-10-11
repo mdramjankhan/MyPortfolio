@@ -3,6 +3,7 @@ import "./globals.css";
 import Navbar from "./components/Navbar";
 import Button from "./components/Button";
 import AppContextProvider from "./components/AppContext";
+import { Toaster } from "react-hot-toast";
 
 
 const geistSans = localFont({
@@ -30,6 +31,7 @@ export default function RootLayout({ children }) {
         <Navbar/>
         <Button/>        
           {children}
+          <Toaster />
       </body>
     </html>
     </AppContextProvider>

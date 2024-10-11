@@ -89,3 +89,19 @@
   .text-indent-tx {
     text-indent: 20px;
   }
+
+
+  .autoShow{
+    animation: autoShowAnimation both;
+    animation-timeline: view(80% 20%);
+
+}
+@keyframes autoShowAnimation{
+    from{
+        opacity: 0;
+        transform: translateY(200px) scale(0.3);
+    }to{
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}

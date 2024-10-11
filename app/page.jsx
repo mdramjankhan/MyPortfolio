@@ -14,7 +14,7 @@ export default function Home() {
   const { theme } = useContext(AppContext);
   const paraText = `I am an Indian web application developer specializing in both frontend and backend development. With a focus on creating clean, efficient, and user-friendly web applications, I am passionate about building software that enhances user experiences and brings real value to people's lives.`;
   return (
-    <div className={`pt-5 h-screen hight overflow-y-scroll overflow--hidden relative ${theme === "light" ? ("bg-[#121212] text-gray-300"):("bg-[#ebe8ddf2] text-slate-900")}`}>
+    <div className={`pt-5 h-screen hight overflow-y-scroll overflow-hidden relative ${theme === "light" ? ("bg-[#121212] text-gray-300"):("bg-[#ebe8ddf2] text-slate-900")}`}>
       {/* BLOB IMAGE  */}
       <div className="absolute z-0 invisible md:visible overflow-hidden w-[50rem] left-[-25rem] top-[-12rem]">
         <Image src={blob} className="overflow-hidden" alt="blob"/>

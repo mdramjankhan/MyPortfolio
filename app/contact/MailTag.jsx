@@ -9,7 +9,7 @@ export default function MailTag() {
             <div><IoIosMailOpen className="size-10 text-yellow-500"/></div>
             <div>
                 <h1 className="uppercase font-medium opacity-60 mt-1">mail me</h1>
-                <p className="font-medium"><email>rk9032929@gmail.com</email></p>
+                <p className="font-medium">rk9032929@gmail.com</p>
             </div>
         </div>
     )

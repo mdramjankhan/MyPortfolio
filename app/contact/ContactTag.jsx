@@ -8,7 +8,7 @@ export default function ContactTag() {
             <div><IoMdCall className="size-10 text-yellow-500"/></div>
             <div>
                 <h1 className="uppercase font-medium opacity-60 mt-1">call me</h1>
-                <p className="font-medium"><tel>+91 7872857822</tel></p>
+                <p className="font-medium">+91 7872857822</p>
             </div>
         </div>
     )
