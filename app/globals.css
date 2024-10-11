@@ -63,6 +63,9 @@
     .textSize {
       font-size: 5rem;
     }
+    .hight {
+      height: 100vh;
+    }
   }
 
   .nav-Bcolor{
@@ -79,4 +82,10 @@
     border: 1px solid rgba(255,255,255,0.225);
   }
 
-  
+  .text-indent {
+    text-indent: 20px;
+  }
+
+  .text-indent-tx {
+    text-indent: 20px;
+  }

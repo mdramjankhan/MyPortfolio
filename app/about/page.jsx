@@ -8,6 +8,8 @@ import SkillSection from "../components/SkillSection";
 import EduSec from "../components/EduSec";
 
 export default function AboutPage() {
+
+
     const { theme } = useContext(AppContext);
     // console.log(theme)
     return (

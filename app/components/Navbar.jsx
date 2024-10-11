@@ -20,7 +20,7 @@ export default function Navbar() {
     return (
         <div> 
             {/* MOBILE FRIENDLY  */}
-            <div className={`absolute  bottom-0 w-full  z-10 lg:hidden  ${theme === "light" ? ("nav-Bcolor ") : ("nav-Wcolor text-slate-900")}`}>
+            <div className={`fixed bottom-0 w-full  z-10 lg:hidden  ${theme === "light" ? ("nav-Bcolor ") : ("nav-Wcolor text-slate-900")}`}>
                 <ul className='w-full flex justify-around  p-2 rounded-full
             
             '>
